@@ -56,4 +56,12 @@ public class Week4 {
 
         return decimalFormat.format(IBM);
     }
+    
+    public class Main {
+
+    public static void main(String[] args) {
+        Week4 week4 = new Week4();
+        week4.max2Int(6, 7);
+    }
+}
 }
